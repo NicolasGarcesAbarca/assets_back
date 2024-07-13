@@ -1,6 +1,7 @@
 # Backend Assets
 
-Backend creado con Django y Django Rest Framework para prueba técnica Assets. Los commandos asumen que se esta usando un os linux o unix. En el caso de usar windows buscar comandos equivalentes.
+Backend creado con Django y Django Rest Framework para prueba técnica Assets. La base de datos utilizada es SQLite que viene por defecto con Django. 
+Los commandos asumen que se esta usando un os linux o unix. En el caso de usar windows buscar comandos equivalentes.
 
 ## Instalación
 

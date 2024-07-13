@@ -1,23 +1,23 @@
 def isRutRepeated(listRut,rut):
-    for x in listRut:
-        if x["rut"] == rut:
+    for dictRut in listRut:
+        if dictRut["rut"] == rut:
             return True
     return False
 
 def getClientId(list,rut):
-    for x in list:
-        if x["rut"] == rut:
-            return x["id"]
+    for dictRut in list:
+        if dictRut["rut"] == rut:
+            return dictRut["id"]
     return -2
 
 def isGestorRepeated(list,name):
-    for x in list:
-        if x["name"] == name:
+    for dictGestor in list:
+        if dictGestor["name"] == name:
             return True
     return False
 
 def getGestorId(list,name):
-    for x in list:
-        if x["name"] == name:
-            return x["id"]
+    for dictGestor in list:
+        if dictGestor["name"] == name:
+            return dictGestor["id"]
     return -1
